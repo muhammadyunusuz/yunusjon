@@ -1,6 +1,15 @@
 @import url("./typography.scss");
+@import url("./containers.scss");
+
+$BACKGROUND_COLOR: #151315;
+$TEXT_COLOR: #ffffff;
 
 h1 {
-	font-size: 40px;
+	font-size: 42px;
 	font-family: "TTFirsNeue", serif;
+}
+
+body {
+	background-color: $BACKGROUND_COLOR;
+	color: $TEXT_COLOR;
 }
